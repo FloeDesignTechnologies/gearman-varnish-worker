@@ -1,0 +1,25 @@
+{
+  "name": "pheromone/gearman-varnish-worker",
+  "description": "A PHP Gearman worker to execute varnishadm command",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "timwhitlock/php-varnish",
+        "version": "dev-master",
+        "source": {
+          "type": "git",
+          "url": "http://github.com/timwhitlock/php-varnish",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "timwhitlock/php-varnish": "dev-master"
+  },
+  "require-dev": {
+    "silex/silex": "1.*",
+    "twig/twig": "1.7.0"
+  }
+}
